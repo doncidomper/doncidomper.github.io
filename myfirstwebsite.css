@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier Prime', monospace;
+    background-image: url(assets/topography.png);
+  }
+
+  
+.content-wrapper˙{padding: 0 10 0 10;}  
+
+header {
+    height: 10vh;
+    background-color: #333333;
+    width: 100vw;
+    text-transform: uppercase;
+  }
+  .header-content {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .logo {
+    height: 7vh;
+    margin-top: 1.5vh;
+    
+  }
+.navi {
+  font-size: 1.5rem;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px 0px 40px 40px;
+    padding: 0 10%;
+}   
+
+   
+      .name {
+        font-size: 4rem;
+        font-weight: bold;
+        padding-top: 20vh;
+      }
+      
+      .title {
+        font-size: 3rem;
+        padding-top: 10vh;
+        color:#ff0099;
+      }
+      
+      p {
+        padding-top: 3vh;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        text-align: justify;
+      }
+
+      .separator {
+        line-height: 10rem;
+        text-align: center;
+        letter-spacing: .5rem;
+        font-weight: bold;
+      }
+
+
+      .TechWiki {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      h4 {
+        font-size: 2.5rem;
+        padding-top: 8vh;
+      }
+      
+      footer {
+        height: 14vh;
+      }
+
+      
